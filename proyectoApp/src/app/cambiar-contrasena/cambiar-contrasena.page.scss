@@ -1,0 +1,23 @@
+ion-content {
+    display: flex;
+    flex-direction: column; /* Apila los elementos */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    height: 100vh; /* Usa la altura completa de la ventana */
+    padding: 0; /* Sin padding */
+    margin: 0; /* Sin margin */
+  }
+  
+  .form-container {
+    width: 100%; /* Ocupa todo el ancho */
+    max-width: 400px; /* Ancho máximo */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 10px; /* Bordes redondeados */
+    background: white; /* Fondo blanco */
+  }
+  
+  ion-item {
+    margin-bottom: 15px; /* Espacio entre ítems */
+  }
+  
